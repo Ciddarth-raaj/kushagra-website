@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kushagra's Portfolio</title>
+  <!-- Import a clean, modern font (Inter, similar to Notion) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    /* Reset & Base Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #ffffff;
+      color: #333;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    h1, h2 {
+      font-weight: 600;
+      margin-bottom: 0.5em;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 0.2em;
+    }
+    h2 {
+      font-size: 2em;
+      margin-top: 1.5em;
+      margin-bottom: 0.5em;
+    }
+    p {
+      margin-bottom: 1em;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+      margin-bottom: 1em;
+    }
+    li {
+      margin-bottom: 0.6em;
+    }
+    a {
+      color: #0070f3;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.2s ease;
+    }
+    a:hover {
+      text-decoration: underline;
+      color: #005bb5;
+    }
+    strong {
+      font-weight: 600;
+    }
+    /* Animation for sections */
+    .fade-in {
+      opacity: 0;
+      animation: fadeIn 1s ease forwards;
+    }
+    .delay-1 { animation-delay: 0.2s; }
+    .delay-2 { animation-delay: 0.4s; }
+    .delay-3 { animation-delay: 0.6s; }
+    .delay-4 { animation-delay: 0.8s; }
+    .delay-5 { animation-delay: 1s; }
+    .delay-6 { animation-delay: 1.2s; }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    /* Iframe styling */
+    iframe {
+      border: none;
+      width: 100%;
+      height: 100px;
+      margin-top: 1em;
+    }
+
+    /* NEW STYLES FOR HEADER LAYOUT */
+    .header-container {
+      display: flex;                /* Lay out text + image side by side */
+      align-items: center;          /* Vertically center them */
+      justify-content: space-between; /* Push them to opposite sides */
+      margin-bottom: 20px;          /* Spacing below the header */
+    }
+    .header-text {
+      flex: 1;                      /* Let text take remaining space */
+      margin-right: 20px;           /* Gap between text and image */
+    }
+    .header-image img {
+      max-width: 250px;             /* Control the image size */
+      height: auto;                 /* Keep aspect ratio */
+    }
+  </style>
+</head>
+<body>
+  <!-- Header Section with Image on the Right -->
+  <header class="fade-in delay-1 header-container">
+    <!-- Left side (text) -->
+    <div class="header-text">
+      <h1>Hi, I’m Kushagra! 👋</h1>
+      <p>Welcome to my little corner of the internet. Think of this as a casual guide 
+        to all things me—where I’ve been, what I do, and how you can reach me. Basically, 
+        a one-stop hub for all things Kushagra.</p>
+    </div>
+    <!-- Right side (image) -->
+    <div class="header-image">
+      <!-- Replace the src below with your own image link -->
+      
+      <a href="https://ibb.co/Kjz7LJY5"><img src="https://i.ibb.co/MD5pGmbg/Screenshot-2025-02-11-at-1-17-29-PM.png" alt="Screenshot-2025-02-11-at-1-17-29-PM" border="0"></a>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Pre-Startup Adventures -->
+    <section class="fade-in delay-2">
+      <h2>🎭 Before KuKi: My Pre-Startup Adventures</h2>
+      <p>Before co-founding KuKi, I wore many hats (figuratively, though I do like a good beanie 🧢). Some highlights:</p>
+      <ul>
+        <li>📄 <a href="https://drive.google.com/file/d/19klQfOHQ7BB31Zrd2ecVGeetRTgl_yiP/view?usp=sharing" target="_blank" rel="noopener noreferrer">Experience Highlights (PDF)</a></li>
+        <li>🌍 UN ODR – Worked on Online Dispute Resolution frameworks.</li>
+        <li>⚖️ BTG Advaya – Legal strategy meets business models.</li>
+        <li>🤖 OpenNyAI – Built AI-driven legal tech tools.</li>
+        <li>📑 Ramcharan Jaiman Foundation, Ex-CTO Swiggy – Legal, compliance & operations.</li>
+      </ul>
+      <p>(Updating soon—probably. But hey, this is the important stuff!)</p>
+    </section>
+
+    <!-- What I’m Building Now -->
+    <section class="fade-in delay-3">
+      <h2>🚀 What I’m Building Now (KuKi)</h2>
+      <p>At KuKi, we’re tackling ESG compliance—because 28 weeks of paperwork is unacceptable when AI can do it in under 60 minutes.</p>
+      <ul>
+        <li>🔗 <a href="https://www.kuki.co.in" target="_blank" rel="noopener noreferrer">KuKi Website</a></li>
+        <li>📂 <a href="https://drive.google.com/drive/folders/17YAGPvI4PECt3qUAgfZrLXJov1MER5Ul" target="_blank" rel="noopener noreferrer">Pitch Deck & Business Plan</a></li>
+        <li>💼 <a href="https://www.linkedin.com/company/kukisol/posts/?feedView=all" target="_blank" rel="noopener noreferrer">KuKi LinkedIn</a></li>
+        <li>🎤 Took a few sessions on Law School & Innovation – <a href="https://www.linkedin.com/posts/indian-legaltech-network_kushagra-bhatia-ugcPost-7198672010657316865-BLAu/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABWTLJQBv6r9Oz9zxR2dTyZLBuYiEKlCHY4" target="_blank" rel="noopener noreferrer"> A Glimpse of it.</a></li>
+        <li>📝 <a href="https://notes.agami.in/p/following-kukis-journey-of-innovation" target="_blank" rel="noopener noreferrer">Following KuKi’s Journey</a></li>
+        <li>🌍 Went to London recently, invited by the Department of Business & Trade—was PRETTY AWESOME! 
+          <a href="https://www.linkedin.com/posts/indian-legaltech-network_iltn-legal-geek-ugcPost-7264896194303148032-05Rz/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABWTLJQBv6r9Oz9zxR2dTyZLBuYiEKlCHY4" target="_blank" rel="noopener noreferrer"> Read about it here.</a>
+        </li>
+      </ul>
+      <p>(Updating soon—probably. But hey, this is the important stuff!)</p>
+      <p>💡 Got ideas? Need help navigating ESG? Let’s talk.</p>
+    </section>
+
+    <!-- Social Side -->
+    <section class="fade-in delay-4">
+      <h2>🌍 The Social Side of Me</h2>
+      <ul>
+        <li>🔹 <a href="https://www.linkedin.com/in/kushagra-bhatia-5b027ba1/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        <li>🎙️ <a href="https://www.instagram.com/reel/C--fS5Zy1qt/?igsh=MTRpNzltODRiNnFqZg==" target="_blank" rel="noopener noreferrer">Interviews & Features</a></li>
+        <li>✍️ <a href="https://bhatiakushagra.substack.com/?r=4441h9&utm_campaign=pub-share-checklist" target="_blank" rel="noopener noreferrer">Writings & Rants</a></li>
+      </ul>
+    </section>
+
+    <!-- Travel Moments -->
+    <section class="fade-in delay-5">
+      <h2>✈️ Travel Moments</h2>
+      <p>I also travel a little—sometimes for work, sometimes for adventure, always for the stories. Expect to see a mix of cityscapes, chai spots, and places where I accidentally end up.</p>
+      <p>📸 <strong>[This space will soon have travel snapshots, so stay tuned!]</strong></p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="fade-in delay-6">
+      <h2>📩  Let’s Build Something Cool!</h2>
+      <p>Want to brainstorm, collaborate, or just chat over coffee? Drop me a message:</p>
+      
+      <iframe data-tally-src="https://tally.so/embed/wA4kDk?alignLeft=1&transparentBackground=1&dynamicHeight=1"
+              loading="lazy" width="100%" height="100" frameborder="0" marginheight="0"
+              marginwidth="0" title="Bring a Cranberry Cold Brew!🧋"></iframe>
+      <script>
+        var d=document,w="https://tally.so/widgets/embed.js",v=function(){
+          if(typeof Tally!=="undefined"){Tally.loadEmbeds()}
+          else{d.querySelectorAll("iframe[data-tally-src]:not([src])")
+            .forEach((function(e){e.src=e.dataset.tallySrc}))}
+        };
+        if(typeof Tally==="undefined"){
+          var s=d.createElement("script");s.src=w;s.onload=v;s.onerror=v;d.body.appendChild(s);
+        }else{v();}
+      </script>
+
+      <p>(Or send a carrier pigeon 🕊️. But email works too.)</p>
+      <p>kushagra@kuki.co.in</p>
+    </section>
+  </main>
+</body>
+</html>
